@@ -27,7 +27,7 @@ fun RoundIconButton(
     val iconButtonSizeModifier = Modifier.size(40.dp)
     Card(
         modifier = Modifier
-            .padding(all = 8.dp)
+            .padding(all = 4.dp)
             .clickable { onClick.invoke() }
             .then(iconButtonSizeModifier),
         shape = CircleShape,
